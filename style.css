@@ -61,3 +61,18 @@ button {
     background-color: transparent;
     border: 0;
 }
+
+input[type=text] {
+    width: 100%;
+    border-radius: 15px;
+    background-color: transparent;
+    border: none;
+    font-size: 15pt;
+    margin: 0 2% 0 2%;
+}
+
+input[type="text"]:focus {
+    background: transparent;
+    border: none;
+    outline: none;
+}
