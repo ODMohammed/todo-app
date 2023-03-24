@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    background: url("bg-desktop-light.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20em;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.div0 {
+    display: flex;
+    align-self: right;
+    border-radius: 15px;
+    color: white;
+    font-size: 40pt;
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+#div1 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 4.5em;
+    width: 40em;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.584);
+    border-radius: 15px;
+    margin-bottom: 2em;
+}
+
+#div2 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 40em;
+    width: 40em;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.584);
+    border-radius: 15px;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+}
