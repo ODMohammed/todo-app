@@ -33,6 +33,6 @@ function change_theme() {
 }
 document.addEventListener("keyup", function(e) {
     if (e.key === "Enter") {
-        alert("enter");
+        alert("to finish later");
     }
 });
