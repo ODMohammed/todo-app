@@ -31,8 +31,23 @@ function change_theme() {
         dark = false;
     }
 }
+
 document.addEventListener("keyup", function(e) {
     if (e.key === "Enter") {
-        alert("to finish later");
+        const todo = document.getElementById("todo0").value;
+        if (todo != "") {
+            document.getElementById("todo0").value = '';
+            addtodo(todo);
+        }
     }
 });
+
+function addtodo(todo) {
+    const ul = document.getElementById("p_list");
+    const li = document.createElement("li");
+    const hr = document.createElement("hr");
+    hr.classList.add("hr_class");
+    li.innerText = todo;
+    ul.appendChild(li);
+    ul.appendChild(hr);
+}
